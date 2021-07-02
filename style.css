@@ -16,9 +16,10 @@ body{
     margin-left: 400px;
     margin-bottom: 10px;
     padding: 20px;
+    border-radius: 25px;
 }
 
-a{
+#nav a{
     text-decoration: none;
     color: black;
     padding: 20px;
@@ -30,4 +31,52 @@ a{
 #nav h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+#main h1{
+    background-color: grey;
+    width: 970px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#main img{
+    margin-left: 425px;
+    border: black;
+    border-style: groove;
+    width: 970px;
+    border-radius: 25px;
+}
+
+#main h2{
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    width: 970px;
+    margin-left: 400px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+#main p{
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    width: 970px;
+    margin-left: 400px;
+    border-radius: 25px;
+    font-size: larger;
+    font-weight: 800;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+#footer img{
+    width: 50px;
 }
